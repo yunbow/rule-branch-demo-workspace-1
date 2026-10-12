@@ -4,6 +4,7 @@
 
 ## Dependency compatibility
 
-- Treat React 18 and Zod 3 as the currently approved compatibility baseline.
-- Before upgrading a major dependency, confirm the migration impact and update the corresponding RuleBranch rule.
+- React 19 and Zod 4 are the proposed compatibility baseline.
+- Review React 19 rendering changes and Zod 4 migration notes before merging dependency-driven code changes.
 - Keep validation logic in `src/profile.ts` covered by the approved Zod compatibility rule.
+- Major dependency upgrades must be accompanied by evidence and a reviewed RuleBranch version.
