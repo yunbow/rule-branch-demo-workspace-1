@@ -2,6 +2,6 @@
 
 # Project rules
 
-1. React 18 / Zod 3 is the approved dependency baseline.
-2. Major dependency upgrades require compatibility review before implementation.
-3. If the code and this rule diverge, report the mismatch instead of silently rewriting the rule.
+1. React 19 / Zod 4 is the proposed dependency baseline.
+2. Major dependency upgrades require compatibility review and evidence.
+3. If implementation and rules diverge, surface the drift and wait for the RuleBranch decision before treating the new pattern as approved.

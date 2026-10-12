@@ -6,5 +6,5 @@ enforcement: advisory
 
 # Dependency compatibility
 
-React 18 and Zod 3 are the approved baseline.
-A major-version upgrade must be reviewed together with the implementation patterns that depend on it.
+React 19 and Zod 4 are the proposed compatibility baseline.
+Before adopting new APIs, confirm migration impact against the code paths that depend on React rendering behavior and Zod validation.
